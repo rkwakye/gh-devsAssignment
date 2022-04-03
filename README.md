@@ -3,17 +3,14 @@ Gh-DevsAssignment Create VPC with 2 AZ's, add database on EC2 and use load balan
 
 This is for homework assignment
 Company Name (gh-devs), regions (us-east-2), software (wordpress)
-Create VPC with 2 AZ's
-  Launch Instances 
-  Install WEeb App
-  Install Nginx
-  Install Wordpress
-  Configure webapp to reach database
-Create WordPress EC2 
-  Instal
 
-Load Balancer
-  Launch LB
-  Configure LB
 
-use RDS instance for wordpress database
+1. Create VPC, Private & Public Subnets, Routes etc… for a company to deploy
+2. Database (Mysql RDS)
+3. Autoscaling group of wordpress instances preconfigure with your ansible playbook
+     Launch template
+     Auto Scaling group
+     Configure AG instances to connect to RDS instance
+4. Load balancer
+      Launch LB
+      Configure LB
