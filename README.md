@@ -2,7 +2,7 @@
 Gh-DevsAssignment Create VPC with 2 AZ's, add database on EC2 and use load balancer
 
 This is for homework assignment
-
+Company Name (gh-devs), regions (us-east-2), software (wordpress)
 Create VPC with 2 AZ's
   Launch Instances 
   Install WEeb App
