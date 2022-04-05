@@ -1,0 +1,6 @@
+GroupId,GroupName,VpcId,Description,OwnerId,InboundRulesCount,OutboundRulesCount,Tags
+sg-0e8e3e07c509b5b3a,launch-wizard-1,vpc-07bff3c3594ac0da1,launch-wizard created 2022-03-28T21:09:35.057Z,683924615846,3,1,Name:allowSSH-Internet
+sg-0963ad6d8f4b600c1,SSH-ONLY,vpc-07bff3c3594ac0da1,Allows SSH access from Internet for DevOps,683924615846,1,1,
+sg-088f895e8fa0357f3,publicWeb,vpc-07bff3c3594ac0da1,publicWeb,683924615846,1,1,
+sg-04e8eb5a280bb8df7,default,vpc-07f930863b77715d7,default VPC security group,683924615846,1,1,
+sg-0d0f53caef56052cf,default,vpc-07bff3c3594ac0da1,default VPC security group,683924615846,1,1,
