@@ -6,7 +6,9 @@ Company Name (gh-devs), regions (us-east-2), software (wordpress)
 
 
 1. Create VPC, Private & Public Subnets, Routes etc… for a company to deploy
-    -Screenshot of VPC created, showing both private and public subnets, show the routes. 
+    -Screenshot of VPC created, showing both private and public subnets, show the routes.
+    - Create Security Groups for All-Internet AND security group for SSH on port 22
+    - Take Screenshot
 2. Database (Mysql RDS)
     - screenshot of terminal lines executed to create MySQL RDS
 3. Autoscaling group of wordpress instances preconfigure with your ansible playbook
