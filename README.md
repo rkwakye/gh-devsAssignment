@@ -23,3 +23,10 @@ Company Name (gh-devs), regions (us-east-2), software (wordpress)
 4. Load balancer
       Launch LB
       Configure LB
+
+
+#Enable HTTP on server
+#!/bin/bash
+yum install y httpd
+chkconfig httpd on
+echo "<h1><h>Welcome to GH-Devs"
