@@ -27,6 +27,8 @@ Company Name (gh-devs), regions (us-east-2), software (wordpress)
 
 #Enable HTTP on server
 #!/bin/bash
-yum install y httpd
-chkconfig httpd on
-echo "<h1><h>Welcome to GH-Devs"
+ yum install y httpd
+ chkconfig httpd on
+ echo "<h1><h>Welcome to GH-Devs"</b></h1>">/var/www/html/index.html
+ service http start
+ 
