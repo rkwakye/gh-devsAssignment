@@ -25,10 +25,19 @@ Company Name (gh-devs), regions (us-east-2), software (wordpress)
       Configure LB
 
 
-#Enable HTTP on server
-#!/bin/bash
- yum install y httpd
- chkconfig httpd on
- echo "<h1><h>Welcome to GH-Devs"</b></h1>">/var/www/html/index.html
- service http start
+#To Enable HTTP on server
+#update system first
+sudo yum update -y
+#Install Apache
+sudo yum install y httpd
+#install the PHP software
+sudo amazon-linux-extras install -y lamp-mariadb10.2-php7.2 php7.2
+#start Apache
+sudo service httpd start
+#make directory for website
+sudo mkdir /var/www/html/
+#Configure the web server to start with each system boot
+sudo systemctl enable httpd
+service http start
+echo "<h1><h>Welcome to GH-Devs"</b></h1>">/var/www/html/index.html
  
